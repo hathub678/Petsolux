@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PetSolux</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>PetSolux</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#produtos">Produtos</a>
+      <a href="#">Sobre Nós</a>
+      <a href="#">Contato</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Seu Pet Merece o Melhor</h1>
+    <p>Descubra a linha completa de produtos PetSolux para o banho e o bem-estar do seu amigo.</p>
+    <button onclick="scrollToProducts()">Conheça Nossos Produtos</button>
+  </section>
+
+  <section class="products" id="produtos">
+    <h2>Nossos Produtos</h2>
+    <div class="product-card">
+      <img src="https://cdn.pixabay.com/photo/2017/09/25/13/12/shampoo-2789134_960_720.jpg" alt="Shampoo PetSolux">
+      <h3>Shampoo PetSolux</h3>
+      <p>Limpeza suave e brilho intenso para todos os tipos de pelos.</p>
+      <strong>R$ 39,90</strong>
+      <br><br>
+      <button>Adicionar ao Carrinho</button>
+    </div>
+  </section>
+
+  <section class="avaliacoes">
+    <h2>Avaliações dos Nossos Clientes</h2>
+    <div class="avaliacao">
+      <h3>Isaías</h3>
+      <p>Obrigado, por terem tanta dedicação com os meus cachorros!<br>
+      Petsolux o melhor lugar!!!<br>
+      Respeito e muito carinho, é com eles.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 PetSolux. Todos os direitos reservados.</p>
+    <p>[Facebook] [Instagram] [Twitter]</p>
+  </footer>
+
+  <div class="cookie-banner" id="cookieBanner">
+    <span>Este site utiliza cookies para garantir a melhor experiência. Ao continuar, você concorda com o uso de cookies.</span>
+    <button onclick="acceptCookies()">Entendi</button>
+  </div>
+
+  <button id="backToTop" onclick="backToTop()">⬆️</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
