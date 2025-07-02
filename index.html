@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PetSolux</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>PetSolux</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#produtos">Produtos</a>
+      <a href="#avaliacoes">Avaliações</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <h1>Seu Pet Merece o Melhor</h1>
+    <p>Descubra a linha completa de produtos PetSolux para o banho e o bem-estar do seu amigo.</p>
+    <button onclick="scrollToSection('produtos')">Conheça Nossos Produtos</button>
+  </section>
+
+  <section class="products" id="produtos">
+    <h2>Nossos Produtos</h2>
+    <div class="product-card">
+      <img src="https://cdn.pixabay.com/photo/2017/09/25/13/12/shampoo-2789134_960_720.jpg" alt="Shampoo PetSolux">
+      <h3>Shampoo PetSolux</h3>
+      <p>Limpeza suave e brilho intenso para todos os tipos de pelos.</p>
+      <strong>R$ 39,90</strong>
+      <br><br>
+      <a href="https://wa.me/5599999999999?text=Olá!%20Gostaria%20de%20comprar%20o%20Shampoo%20PetSolux." target="_blank">
+        <button>Comprar Agora</button>
+      </a>
+    </div>
+  </section>
+
+  <section class="avaliacoes" id="avaliacoes">
+    <h2>Avaliações dos Nossos Clientes</h2>
+    <div class="avaliacao">
+      <h3>Isaías</h3>
+      <p>Obrigado, por terem tanta dedicação com os meus cachorros!<br>
+      Petsolux o melhor lugar!!!<br>
+      Respeito e muito carinho, é com eles.</p>
+    </div>
+  </section>
+
+  <section class="contato" id="contato">
+    <h2>Fale Conosco</h2>
+    <form>
+      <input type="text" placeholder="Seu nome" required>
+      <input type="email" placeholder="Seu e-mail" required>
+      <textarea placeholder="Digite sua mensagem aqui..." rows="5" required></textarea>
+      <button type="submit">Enviar Mensagem</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 PetSolux. Todos os direitos reservados.</p>
+    <p><a href="https://www.instagram.com/petsolux" target="_blank" class="social-link">Instagram</a></p>
+  </footer>
+
+  <div class="cookie-banner" id="cookieBanner">
+    <span>Este site utiliza cookies para garantir a melhor experiência. Ao continuar, você concorda com o uso de cookies.</span>
+    <button onclick="acceptCookies()">Entendi</button>
+  </div>
+
+  <button id="backToTop" onclick="backToTop()">⬆️</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
